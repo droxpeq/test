@@ -1,3 +1,4 @@
+CREATE DATABASE task2db;
 CREATE TABLE person (
     person_id SERIAL PRIMARY KEY,
     last_name VARCHAR(50) NOT NULL CHECK (last_name ~ '^[А-Яа-я-]+$'),
